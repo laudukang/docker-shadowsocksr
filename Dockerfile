@@ -6,7 +6,7 @@ ENV PASSWORD        password
 ENV METHOD          aes-256-cfb
 ENV PROTOCOL        auth_sha1_v4
 ENV PROTOCOLPARAM   protocol_param
-ENV OBFS            tls1.2_ticket_auth_compatible
+ENV OBFS            tls1.2_ticket_auth
 ENV TIMEOUT         300
 ENV DNS_ADDR        8.8.8.8
 ENV DNS_ADDR_2      8.8.4.4
